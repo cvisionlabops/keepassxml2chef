@@ -11,7 +11,7 @@ TODO: Add support for save in keepass record pasword field values with quotes.
 
 ## Prepare passwords keepassx db
 
-Create an empty keepassx database. Tested on Keepassx 0.4.3 (ubuntu 12.04)
+Create an empty keepassx database. Tested on Keepassx 0.4.3 (ubuntu 12.04 and 14.04)
 
 Supports only one level of nesting.
 
