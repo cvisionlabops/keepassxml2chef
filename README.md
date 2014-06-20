@@ -29,7 +29,7 @@ Attention! Record name is not a data bag item name.
 
 For example title of record `srvadm@ldapserver.example.com` in group `ldap_users_of_our_domain` is not a data bag item name!
 
-Script uses *USERNAME* field in a record `srvadm@ldapserver.example.com` as a data bag item:
+Script uses *USERNAME* field in a record `srvadm@ldapserver.example.com` as a data bag item. This field is required and must be unique in databag's list!
 
 `srvadm`
 
