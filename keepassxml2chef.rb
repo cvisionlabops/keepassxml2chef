@@ -32,6 +32,8 @@ doc.css('group entry').each do |entry|
   puts "	found accessor : #{acc}"
   cmd_create="knife vault create #{bag} #{item} '{\"password\":\"#{pass}\" }' --admins #{adm} -S #{acc} >/dev/null 2>&1"
   cmd_update="knife vault update #{bag} #{item} '{\"password\":\"#{pass}\" }' --admins #{adm} -S #{acc} >/dev/null 2>&1"
+  #puts cmd_create
+  #puts cmd_update
   if system("knife data bag show #{bag} >/dev/null 2>&1")
     unless system(cmd_update)
 	puts "Error update bag       : #{bag} #{item}"
