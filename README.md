@@ -7,6 +7,7 @@ Store username & passwords in keepassx db. Update chef server databags with this
 
 ## Know ISSUE's
 
+TODO: Make this script more universe, by detect connection details with existing knife config file.
 TODO: Add support for save in keepass record pasword field values with quotes.
 
 ## Prepare passwords keepassx db
